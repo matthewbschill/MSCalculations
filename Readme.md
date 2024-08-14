@@ -22,7 +22,7 @@ docker build -t mscalculations .
 
 Image can be run from docker desktop.
 Be sure to specify a host port that maps to 8080.
-For example: 5050: 8080
+For example: 5000: 8080
 
 To run the container via command line, command would be similar to:
 docker run -d -p 5000:8080 --name mscalculations mscalculations
@@ -33,7 +33,7 @@ docker stop mscalculations
 # Testing
 
 Can test submitting REST calls in swagger.
-For example if container is running on port 5050,
+For example if container is running on port 5000,
 can open:
 'http://localhost:5000/swagger/index.html'
 
