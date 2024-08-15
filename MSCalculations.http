@@ -1,6 +1,0 @@
-@MSCalculations_HostAddress = http://localhost:5170
-
-GET {{MSCalculations_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

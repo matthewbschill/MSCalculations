@@ -1,13 +1,24 @@
+# Title
+Cost of Borrowing
+
 # Description
+See/maintain history of interest rates.
+Calculate how much it will cost you overall to take out a loan for a particular number of months at a particular rate.
 
-This is simple repo demonstating a few key modern development technologies.
+# Reason
+Thinking about taking out a loan or refinancing an existing loan?
+Ever wonder how much a particular loan will cost you in the long run?
+What are historical best interest rates / what is the current trend?
 
-It is a simple REST API utilizing:
- .Net 8 (Core)
- Docker Containers
- Swagger (Swashbuckle.AspNetCore) --- Adds Docmunetation as well as a quick interface for testing
- SQL Lite and EFCore for a simple dev database
- FluentValidation - for some basic input validation
+
+# Technologies
+
+Small REST API utilizing:
+   .Net 8 (Core)
+   Docker Containers
+   Swagger (Swashbuckle.AspNetCore) --- Adds Docmunetation as well as a quick interface for testing
+   SQL Lite and EFCore for a simple dev database
+   FluentValidation - for some basic input validation
 
 The idea would be that a dev would use the local db for initial testing 
 and replace it with an actual MS SQL Server db for production 
